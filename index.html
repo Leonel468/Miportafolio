@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Portafolio - Leonel Molina</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <p class="ltrw logo-text">
+               <i class="fas fa-code"></i> Mi Portafolio
+            </p>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#sobre-mi" class="nav-link"><i class="fas fa-user"></i> Sobre Mí</a></li>
+                    <li><a href="#mi-historia" class="nav-link"><i class="fas fa-book"></i> Mi Historia</a></li>
+                    <li><a href="#tema-tecnico" class="nav-link"><i class="fas fa-laptop-code"></i> Tema Técnico</a></li>
+                    <li><a href="#tecnologias" class="nav-link"><i class="fas fa-tools"></i> Tecnologías</a></li>
+                    <li><a href="#proyectos" class="nav-link"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
+                    <li><a href="#reflexion" class="nav-link"><i class="fas fa-lightbulb"></i> Reflexión</a></li>
+                    <li><a href="#contacto" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+            <img id="modo-oscuro-toggle" src="imagenes/oscuro.png" alt="Cambiar tema" class="modo-icon" />
+        </div>
+    </header>
+    
+    <!-- Banner animado -->
+    <div class="banner-container">
+        <div class="banner">
+            <div class="banner-text">
+                <h1 class="banner-title ltrw">Desarrollo Web <span class="highlight">&</span> Software</h1>
+                <p class="banner-subtitle ltrw">Creando soluciones digitales</p>
+                <p class="banner-quote">"Sí tengo futuro en esta carrera, porque cada línea de código me acerca más a mis sueños"</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="todo">
+        <!-- Sección Sobre Mi -->
+        <div id="sobre-mi" class="principal seccion">
+            <div class="me">
+                <div class="yo">
+                    <img src="imagenes/foto1 .jpg" class="yo-image" alt="Foto del Programador">
+                </div>
+                <div class="info">
+                    <p class="title ltrw">
+                        Soy <span class="name">Leonel Molina Bendezu</span>
+                    </p>
+                    <p class="personaje"><i class="fas fa-user-tag"></i> Kevin - "El programador que aprende paso a paso"</p>
+                    <div class="redes">
+                        <a href="https://github.com/Leonel468" target="_blank" title="GitHub" class="social-icon">
+                            <img src="https://skillicons.dev/icons?i=github" alt="GitHub" class="ico">
+                        </a>
+                        <a href="https://www.linkedin.com/in/leonel-molina-bendezu-18ba59354/" target="_blank" title="LinkedIn" class="social-icon">
+                            <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" class="ico">
+                        </a>
+                        <a href="https://www.facebook.com/leonel.molinabendezu.9/" target="_blank" title="facebook" class="social-icon">
+                            <img src="imagenes/facebook.png" alt="facebook" class="ico">
+                        </a>
+                        <div class="social-icon">
+                            <img src="imagenes/cv.png" alt="CV" class="ico" id="cvButton">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="parrafo ltrw">
+                Persona en formación, con interés en la automatización y ganas de aprender sobre tecnologías modernas. 
+                He trabajado en pequeños proyectos frontend como parte de mi aprendizaje y estoy explorando conceptos básicos de backend. 
+                Estoy motivado por seguir desarrollando habilidades y comenzar a aportar en proyectos reales desde el desarrollo de software.
+            </p>
+        </div>
+
+        <!-- Mi Historia -->
+        <div id="mi-historia" class="seccion">
+            <h1 class="ltrw seccion-titulo"><i class="fas fa-history"></i> Mi Historia</h1>
+            <div class="seccion-contenido">
+                <div class="seccion-texto">
+                    <p class="parrafo ltrw">
+                        Mi camino hacia la ingeniería de sistemas comenzó con curiosidad por entender cómo funcionaban los programas y aplicaciones que usaba diariamente. 
+                        Siempre me ha fascinado resolver problemas lógicos y buscar soluciones eficientes.
+                    </p>
+                    <p class="parrafo ltrw">
+                        Elegí esta carrera porque quiero ser parte de la creación de tecnologías que impacten positivamente en la vida de las personas. 
+                        Me emociona aprender sobre desarrollo web, programación orientada a objetos, bases de datos y cómo estos elementos se combinan para crear soluciones completas.
+                    </p>
+                    <p class="parrafo ltrw">
+                        A veces me cuesta entender todo a la primera, pero la sensación de logro cuando algo que programo funciona correctamente es incomparable. 
+                        Cada reto superado me impulsa a seguir avanzando y me confirma que estoy en el camino correcto.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tema Técnico -->
+        <div id="tema-tecnico" class="seccion">
+            <h1 class="ltrw seccion-titulo"><i class="fas fa-code"></i> Mi Tema Técnico: Estructura HTML y Semántica Web</h1>
+            <div class="seccion-contenido">
+                <div class="seccion-texto">
+                    <p class="parrafo ltrw">
+                        El HTML semántico es fundamental para construir sitios web accesibles y bien estructurados. Consiste en utilizar etiquetas que describen claramente 
+                        el significado del contenido que contienen, en lugar de centrarse solo en la presentación.
+                    </p>
+                    <div class="codigo-ejemplo">
+                        <h3><i class="fas fa-code-branch"></i> Ejemplo de HTML Semántico vs No Semántico:</h3>
+                        <div class="codigo-comparacion">
+                            <div class="codigo-malo">
+                                <h4><i class="fas fa-times-circle"></i> No Semántico:</h4>
+                                <pre>
+&lt;div class="header"&gt;
+    &lt;div class="nav"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="main"&gt;
+    &lt;div class="article"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="footer"&gt;...&lt;/div&gt;
+                                </pre>
+                            </div>
+                            <div class="codigo-bueno">
+                                <h4><i class="fas fa-check-circle"></i> Semántico:</h4>
+                                <pre>
+&lt;header&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+    &lt;article&gt;...&lt;/article&gt;
+&lt;/main&gt;
+&lt;footer&gt;...&lt;/footer&gt;
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="parrafo ltrw">
+                        Usar HTML semántico mejora la accesibilidad, optimiza el SEO y facilita el mantenimiento del código. Es una práctica que todo 
+                        desarrollador web responsable debe implementar y que estoy incorporando en mis proyectos.
+                    </p>
+                </div>
+                <div class="seccion-imagen">
+                    <img src="imagenes/html semantivo.jpg" alt="HTML Semántico" class="seccion-img" >
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sección Tecnologías -->
+        <div id="tecnologias" class="lenide">
+            <div class="tecno seccion">
+                <h1 class="ltrw tecti"><i class="fas fa-laptop-code"></i> Tecnologías</h1>
+                <div class="caja">
+                    <div class="btn">
+                        <div class="fila">
+                            <div class="lan" data-skill="HTML">
+                                <span class="ltrw">HTML</span>
+                                <img src="https://skillicons.dev/icons?i=html" alt="HTML" class="logo">
+                                <div class="skill-bar">
+                                    <div class="skill-level"></div>
+                                </div>
+                            </div>
+                            <div class="lan" data-skill="CSS">
+                                <span class="ltrw">CSS</span>
+                                <img src="https://skillicons.dev/icons?i=css" alt="CSS" class="logo">
+                                <div class="skill-bar">
+                                    <div class="skill-level"></div>
+                                </div>
+                            </div>
+                            <div class="lan" data-skill="JavaScript">
+                                <span class="ltrw">JavaScript</span>
+                                <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" class="logo">
+                                <div class="skill-bar">
+                                    <div class="skill-level"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="lan" data-skill="C#">
+                                <span class="ltrw">C#</span>
+                                <img src="https://skillicons.dev/icons?i=cs" alt="C#" class="logo">
+                                <div class="skill-bar">
+                                    <div class="skill-level"></div>
+                                </div>
+                            </div>
+                            <div class="lan" data-skill="C++">
+                                <span class="ltrw">C++</span>
+                                <img src="https://skillicons.dev/icons?i=cpp" alt="C++" class="logo">
+                                <div class="skill-bar">
+                                    <div class="skill-level"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tecno seccion">
+                <h1 class="ltrw tecti"><i class="fas fa-tools"></i> Herramientas</h1>
+                <div class="btn">
+                    <div class="fila">
+                        <div class="lan" data-skill="Visual Studio">
+                            <span class="ltrw">Visual Studio 2022</span>
+                            <img src="https://skillicons.dev/icons?i=visualstudio" alt="VS" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level" ></div>
+                            </div>
+                        </div>
+                        <div class="lan" data-skill="VS Code">
+                            <span class="ltrw">VS Code</span>
+                            <img src="https://skillicons.dev/icons?i=vscode" alt="VSCode" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level"></div>
+                            </div>
+                        </div>
+                        <div class="lan" data-skill="Sublime Text">
+                            <span class="ltrw">Sublime Text</span>
+                            <img src="https://skillicons.dev/icons?i=sublime" alt="Sublime" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tecno seccion">
+                <h1 class="ltrw tecti"><i class="fas fa-graduation-cap"></i> En aprendizaje</h1>
+                <div class="btn">
+                    <div class="fila">
+                        <div class="lan" data-skill="Java">
+                            <span class="ltrw">Java</span>
+                            <img src="https://skillicons.dev/icons?i=java" alt="Java" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level" ></div>
+                            </div>
+                        </div>
+                        <div class="lan" data-skill="Kotlin">
+                            <span class="ltrw">Kotlin</span>
+                            <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level" ></div>
+                            </div>
+                        </div>
+                        <div class="lan" data-skill="SQL Server">
+                            <span class="ltrw">SQL Server</span>
+                            <img src="https://img.icons8.com/color/512/microsoft-sql-server.png" alt="SQL" class="logo">
+                            <div class="skill-bar">
+                                <div class="skill-level" ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="proyectos" class="proyectos">
+            <h1 class="ltrw tecti"><i class="fas fa-project-diagram"></i> Proyectos</h1>
+            <div class="proyectos-container">
+                <a href="https://leonel468.github.io/Portafoliopersonal/" target="_blank" class="proyec-link">
+                    <div class="fila">
+                        <div class="proy seccion">   
+                            <div class="project-img-container">
+                                <img src="imagenes/portafolio.PNG" alt="OCR" class="project-img">
+                                <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                        <i class="fas fa-eye"></i>
+                                        <span>Ver Proyecto</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h2 class="tlp ltrw"><i class="fas fa-file-alt"></i> Portafolio personal</h2>
+                                <p class="prfp ltrw">
+                                    Este proyecto es un sitio web de portafolio personal desarrollado con HTML, CSS y JavaScript. Está diseñado como una página de presentación profesional que destaca las habilidades, proyectos y experiencia de Mi persona, un estudiante/desarrollador de ingeniería de sistemas.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>          
+                    </div>
+                </a>
+            </div>
+            
+            <a href="https://leonel468.github.io/Miproyecto/" target="_blank" class="proyec-link">
+                <div class="fila">
+                    <div class="proy seccion">   
+                        <div class="project-img-container">
+                            <img src="imagenes/Shousa.PNG" alt="Creador de Contraseñas" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Proyecto</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="tlp ltrw"><i class="fas fa-key"></i> Panaderia Shousa</h2>
+                            <p class="prfp ltrw">
+                                una página web para una panadería y pastelería llamada "Shousa". Este sitio es un e-commerce que permite a los usuarios explorar productos, añadirlos al carrito y realizar compras.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>          
+                </div>
+            </a>
+        </div>
+        
+        <!-- Reflexión Final -->
+        <div id="reflexion" class="seccion">
+            <h1 class="ltrw seccion-titulo"><i class="fas fa-lightbulb"></i> Mi Reflexión Final</h1>
+            <div class="seccion-contenido">
+                <div class="seccion-texto">
+                    <p class="parrafo ltrw">
+                        Este proyecto de portafolio me ha permitido descubrir que tengo una capacidad real para aprender y aplicar conceptos técnicos, 
+                        aunque me tome tiempo dominarlos por completo. He confirmado que disfruto el proceso de resolver problemas y la satisfacción 
+                        que viene cuando logro hacer funcionar algo que he creado.
+                    </p>
+                    <p class="parrafo ltrw">
+                        Durante la creación de este portafolio, me enfrenté a desafíos con la estructura HTML y los estilos CSS, pero cada obstáculo superado 
+                        me dio más confianza en mis habilidades y me mostró que puedo superar las dificultades con perseverancia.
+                    </p>
+                    <p class="parrafo ltrw frase-destacada">
+                        <strong>"Sí tengo futuro en esta carrera, porque cada línea de código que escribo me demuestra que soy capaz de crear soluciones 
+                        que antes solo podía imaginar. Mi capacidad para aprender constantemente y mi pasión por la tecnología me llevarán a desarrollar 
+                        herramientas que hagan una diferencia en la vida de las personas."</strong>
+                    </p>
+                    <h1 class="ltrw seccion-titulo"><i class="fas fa-lightbulb"></i> Mi Reflexión en el Futuro </h1>
+                    <p class="parrafo ltrw">
+                        En el futuro, sueño con desarrollar aplicaciones que resuelvan problemas reales, especialmente en áreas como la educación 
+                        y la accesibilidad. Quiero convertirme en un desarrollador que no solo crea código, sino que construye puentes entre la 
+                        tecnología y las necesidades humanas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mensaje de cierre -->
+        <div class="mensaje-cierre">
+            <blockquote>
+                "No importa cuánto sepas ahora, importa que creas en lo que puedes llegar a ser. Cada línea de código, cada diseño, cada esfuerzo… 
+                construye tu futuro. Este portafolio es mi primer paso para decirle al mundo: Sí tengo futuro en esta carrera."
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- Modal de Video -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <video id="cvVideo" controls autoplay>
+            <source src="imagenes/video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+    </div>      
+    
+    <!-- Footer con Contacto -->
+    <footer>
+        <section id="contacto">
+            <h2><i class="fas fa-envelope"></i> Contacto</h2>
+            <form class="contact-form">
+              <div class="form-group">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Tu nombre" required />
+              </div>
+              <div class="form-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Tu correo" required />
+              </div>
+              <div class="form-group">
+                <i class="fas fa-comment"></i>
+                <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+              </div>
+              <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </form>
+            <div class="footer-social">
+                <a href="https://github.com/Leonel468" target="_blank" title="GitHub" class="footer-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leonel-molina-bendezu-18ba59354/" target="_blank" title="LinkedIn" class="footer-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/leonel.molinabendezu.9/" target="_blank" title="Facebook" class="footer-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <p class="footer-copyright">&copy; 2025 Leonel Molina - Todos los derechos reservados</p>
+        </section>
+    </footer>
+    
+    <!-- Botón para volver arriba -->
+    <button id="back-to-top" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+</body>
+</html>
